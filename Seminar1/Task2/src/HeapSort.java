@@ -1,5 +1,8 @@
 class HeapSort {
-     public void  Hello() {
-        System.out.println("Hello ");
+
+
+    static void display(int[] passedArr) {
+        System.out.println(" ".join(passedArr.toString()));
     }
+
 }

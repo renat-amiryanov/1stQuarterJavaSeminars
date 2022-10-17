@@ -1,15 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
+        int[] numbers = {10, 2, 5};
 
-        HeapSort hs1, hs2;
-
-        hs1 = new HeapSort();
-
-        hs2 = new HeapSort();
-
-        hs1.Hello();
-hs2.Hello();
+        HeapSort hs = new HeapSort();
+        hs.display(numbers);
     }
 }
